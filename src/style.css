@@ -1,3 +1,9 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+#app {
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#board {
+  border: 1px solid #000000;
+}

@@ -1,4 +1,12 @@
-import { BLOCKSIZE, COLS, KEY, ROWS } from "./constant";
+const COLS = 10;
+const ROWS = 20;
+const BLOCKSIZE = 30;
+
+const KEY = {
+  LEFT: 37,
+  RIGHT: 39,
+  DOWM: 40,
+};
 
 const canvas = document.querySelector("#board");
 const ctx = canvas.getContext("2d");
